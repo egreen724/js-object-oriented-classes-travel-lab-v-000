@@ -42,7 +42,7 @@ class Route {
   }
 
   estimatedTime(timeOfDay) {
-    if (timeOfDay == "peak hours") {
+    if (timeOfDay == "peak") {
       return Math.floor(this.blocksTravelled() / 2)
     } else if (timeOfDay = "not peak hours") {
       return Math.floor(this.blocksTravelled() / 3)
