@@ -4,7 +4,7 @@ class Driver {
     this.date = date
   }
 
-  startDate(this.date) {
+  startDate() {
     new Date(this.date)
   }
 
