@@ -14,3 +14,12 @@ class Driver {
     return endYear - startDate()
   }
 }
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+    this.beginningLocation = beginningLocation
+    this.endingLocation = endingLocation
+  }
+
+  
+}
