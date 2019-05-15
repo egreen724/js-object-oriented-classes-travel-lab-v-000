@@ -22,7 +22,10 @@ class Route {
   }
 
   blocksTravelled() {
+    let horizontalBlocks = beginningLocation.horizontal - endingLocation.horizontal
+    let verticalBlocks = beginningLocation.vertical - endingLocation.vertical
 
+    return horizontalBlocks + verticalBlocks
   }
 
   estimatedTime(timeOfDay) {
