@@ -4,8 +4,8 @@ class Driver() {
     this.date = date
   }
 
-  startDate() {
-
+  startDate(this.date) {
+    new Date(this.date)
   }
 
   yearsExperienceFromBeginningOf() {
