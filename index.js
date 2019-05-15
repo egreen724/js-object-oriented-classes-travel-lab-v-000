@@ -4,10 +4,6 @@ class Driver {
     this.startDate = new Date (startDate)
   }
 
-  startDate() {
-    return new Date.parse(date)
-  }
-
   yearsExperienceFromBeginningOf(endYear) {
     let end = new Date(endYear, 0)
 
