@@ -30,9 +30,9 @@ class Route {
 
   estimatedTime(timeOfDay) {
     if (timeOfDay == "peak hours") {
-      blocksTravelled() * 2
+      return blocksTravelled() * 2
     } else if (timeOfDay = "not peak hours") {
-      blocksTravelled() * 3
+      return blocksTravelled() * 3
     }
   }
 }
