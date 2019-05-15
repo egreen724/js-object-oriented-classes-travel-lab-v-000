@@ -1,5 +1,5 @@
 class Driver() {
-  construct(name, date) {
+  constructor(name, date) {
     this.name = name
     this.date = date
   }
@@ -9,6 +9,6 @@ class Driver() {
   }
 
   yearsExperienceFromBeginningOf(endYear) {
-    return endYear - startDate.year 
+    return endYear - startDate.year
   }
 }
