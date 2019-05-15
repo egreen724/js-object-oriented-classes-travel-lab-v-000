@@ -21,5 +21,15 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-  
+  blocksTravelled() {
+    
+  }
+
+  estimatedTime(timeOfDay) {
+    if (timeOfDay == "peak hours") {
+      blocksTravelled() * 2
+    } else if (timeOfDay = "not peak hours") {
+      blocksTravelled() * 3
+    }
+  }
 }
