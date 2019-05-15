@@ -22,8 +22,8 @@ class Route {
   }
 
   blocksTravelled() {
-    let horizontalBlocks = beginningLocation.horizontal - endingLocation.horizontal
-    let verticalBlocks = beginningLocation.vertical - endingLocation.vertical
+    let horizontalBlocks = Math.abs(beginningLocation.horizontal - endingLocation.horizontal)
+    let verticalBlocks = Math.abs(beginningLocation.vertical - endingLocation.vertical)
 
     return horizontalBlocks + verticalBlocks
   }
