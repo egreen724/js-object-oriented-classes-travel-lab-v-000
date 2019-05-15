@@ -33,9 +33,9 @@ class Route {
 
   blocksTravelled() {
     let horizontalBlocks = Math.abs(this.avenueToInteger(this.endingLocation.horizontal) - this(avenueToInteger(this.beginningLocation.horizontal)))
-    let verticalBlocks = Math.abs(beginningLocation.vertical - endingLocation.vertical)
+    let verticalBlocks = Math.abs(endingLocation.vertical - beginningLocation.vertical)
 
-    return horizontalBlocks + verticalBlocks
+    return horizontalBlocks + verticalBlocks;
   }
 
   estimatedTime(timeOfDay) {
