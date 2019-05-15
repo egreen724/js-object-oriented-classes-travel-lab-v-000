@@ -41,8 +41,8 @@ class Route {
     return horizontalBlocks + verticalBlocks;
   }
 
-  estimatedTime(timeOfDay) {
-    if (timeOfDay == "peak") {
+  estimatedTime(peak) {
+    if (peak) {
       return Math.floor(this.blocksTravelled() / 2)
     } else {
       return Math.floor(this.blocksTravelled() / 3)
